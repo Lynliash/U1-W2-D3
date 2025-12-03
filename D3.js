@@ -221,12 +221,11 @@ for (i = 0; i < starWarsCharacters.length; i++) {
   }
 }
 
-
 for (i = 0; i < starWarsCharacters.length; i++) {
-  if (starWarsCharacters[i].mass )
+  if (starWarsCharacters[i].mass >= 100) {
+    console.log(starWarsCharacters[i].name, "pesa", starWarsCharacters[i].mass);
+  }
 }
-
-
 
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
