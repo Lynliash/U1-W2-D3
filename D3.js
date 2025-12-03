@@ -223,7 +223,8 @@ for (i = 0; i < starWarsCharacters.length; i++) {
 
 for (i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].mass >= 100) {
-    console.log(starWarsCharacters[i].name, "pesa", starWarsCharacters[i].mass);
+    starWarsCharacters[i].gender = "ed è in sovrappeso";
+    console.log(starWarsCharacters[i].name, "pesa", starWarsCharacters[i].mass, starWarsCharacters[i].gender);
   }
 }
 
